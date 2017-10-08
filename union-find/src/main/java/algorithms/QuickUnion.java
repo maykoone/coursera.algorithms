@@ -4,7 +4,7 @@ package algorithms;
  * Created by maykoone on 07/10/17.
  */
 public class QuickUnion implements UnionFind {
-    private int[] id;
+    protected int[] id;
 
     public QuickUnion(int numberOfObjects) {
         id = new int[numberOfObjects];

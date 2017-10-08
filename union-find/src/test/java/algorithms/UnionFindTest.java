@@ -59,4 +59,7 @@ public abstract class UnionFindTest {
         Assert.assertFalse(subject.connected(6, 1));
     }
 
+    
+
+
 }

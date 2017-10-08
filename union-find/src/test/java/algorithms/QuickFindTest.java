@@ -10,6 +10,6 @@ import org.junit.runners.JUnit4;
 public class QuickFindTest extends UnionFindTest{
     @Override
     protected UnionFind createInstanceWithNumberOfObjects(int n) {
-        return new QuickFind(10);
+        return new QuickFind(n);
     }
 }
